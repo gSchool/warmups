@@ -44,4 +44,4 @@ Gists
 * Steve - https://gist.github.com/stevepm/f48c9188296e750b8a1a
 * Evan - https://gist.github.com/289dc614e38905c1b2ab
 * Bebe - https://gist.github.com/bebepeng/9539e45ddefe86474bee
-
+* Seth - https://gist.github.com/SethMusulin/11434353
