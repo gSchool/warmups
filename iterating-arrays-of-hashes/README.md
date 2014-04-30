@@ -29,7 +29,9 @@ When you're done, create a gist on github. Please submit a pull request against 
 Extra Credit
 ===
 
-Re-write your implementation without using `each`.
+Re-wriet your implmentation without:
+* `each`
+* local variables
 
 Gists
 ===
