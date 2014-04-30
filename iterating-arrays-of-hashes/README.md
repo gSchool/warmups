@@ -26,6 +26,11 @@ Turning in
 
 When you're done, create a gist on github. Please submit a pull request against this README linking to your gist.
 
+Extra Credit
+===
+
+Re-write your implementation without using `each`.
+
 Gists
 ===
 * Andrew - https://gist.github.com/deitrick/e784bd434eee818bdf64
