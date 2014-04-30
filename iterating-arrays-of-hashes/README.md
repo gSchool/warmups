@@ -32,6 +32,7 @@ Extra Credit
 Re-wriet your implmentation without:
 * `each`
 * local variables
+* code duplication
 
 Gists
 ===
