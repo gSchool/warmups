@@ -3,7 +3,7 @@ class Dogs
   AVERAGE   = (6..10).to_a.sample
   EXCELLENT = (11..15).to_a.sample
 
-  def initalize
+  def initialize
     joe   = {
       :name => {:first => "Joe", :last=> "Smith"},
       :owner_quality => EXCELLENT
