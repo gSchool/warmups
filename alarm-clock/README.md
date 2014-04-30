@@ -1,8 +1,9 @@
 Alarm Clock Warmup
-
+===
 Write a ruby script that will say “Time’s up!” after a given number of seconds or minutes.
 
 Prep
+===
 
 First, get familiar with the “say” command.  Please use headphones if you have them :)  From the terminal type:
 
@@ -24,6 +25,7 @@ i += 1
 end
 
 Making it work
+===
 
 Now you have all the tools you need to write an alarm clock that tells you when it’s done!  Here’s how it works:
 
