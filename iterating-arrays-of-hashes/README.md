@@ -30,3 +30,6 @@ Gists
 ===
 Andrew - https://gist.github.com/deitrick/e784bd434eee818bdf64
 Nate - https://gist.github.com/nburt/990cc23768984e11e2e0
+Scott - https://gist.github.com/vandosant/8ccdb607ba15a31ab35d
+Mike K - https://gist.github.com/mikekauffman/d35b8248e28a052a71cf
+Ellie - https://github.com/ems2141/warmups
