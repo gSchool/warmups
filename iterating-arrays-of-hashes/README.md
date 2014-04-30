@@ -29,3 +29,4 @@ When you're done, create a gist on github. Please submit a pull request against 
 Gists
 ===
 Andrew - https://gist.github.com/deitrick/e784bd434eee818bdf64
+Scott - https://gist.github.com/vandosant/8ccdb607ba15a31ab35d
