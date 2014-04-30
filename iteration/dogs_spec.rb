@@ -7,13 +7,11 @@ describe Dogs do
 
   describe "#small_dogs" do
     it "returns all of the small dogs" do
-      expect(dogs.small_dogs).to match_array(["Yapper", "Tito"])
-    end
-  end
+      small_dogs = dogs.small_dogs
 
-  describe "#big_dogs" do
-    it "returns all of the big dogs" do
-      expect(dogs.big_dogs).to match_array(["Fido", "Bruiser", "Tank", "Beast"])
+      expect(small_dogs.length).to eq(2)
+      expect(small_dogs.first).to include(:name => "Yapper")
+      expect(small_dogs.last).to include(:name => "Trixie")
     end
   end
 
@@ -22,6 +20,13 @@ describe Dogs do
       expect(dogs.huge_dog).to eq('Tank')
     end
   end
+
+  describe "#big_dogs_names" do
+    it "returns all of the big dogs" do
+      expect(dogs.big_dog_names).to match_array(["Fido", "Bruiser", "Tank", "Beast"])
+    end
+  end
+
 
   describe "#joes_big_dogs" do
     it "returns only joes dogs" do

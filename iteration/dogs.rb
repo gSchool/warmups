@@ -23,7 +23,7 @@ class Dogs
              {:name => "Tank", :size => :huge, :owner => sarah},
              {:name => "Beast", :size => :large, :owner => sarah},
              {:name => "Harleigh", :size => :medium, :owner => andrew},
-             {:name => "Tito", :size => :small, :owner => andrew},]
+             {:name => "Trixie", :size => :small, :owner => andrew},]
   end
 
   # only edit below this line
@@ -32,13 +32,14 @@ class Dogs
     # only use the @dogs instance variable
   end
 
-  def big_dogs
-    # only use the @dogs instance variable
-  end
-
   def huge_dog
     # only use the @dogs instance variable
   end
+
+  def big_dog_names
+    # only use the @dogs instance variable
+  end
+
 
   def joes_big_dogs
     # only use the @dogs instance variable
