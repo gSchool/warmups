@@ -5,12 +5,6 @@ require_relative 'dogs'
 describe Dogs do
   let(:dogs) { Dogs.new }
 
-  describe "#huge_dog" do
-    it "returns the huge dog" do
-      expect(dogs.huge_dog).to eq('Tank')
-    end
-  end
-
   describe "#small_dogs" do
     it "returns all of the small dogs" do
       expect(dogs.small_dogs).to match_array(["Yapper", "Tito"])
@@ -20,6 +14,12 @@ describe Dogs do
   describe "#big_dogs" do
     it "returns all of the big dogs" do
       expect(dogs.big_dogs).to match_array(["Fido", "Bruiser", "Tank", "Beast"])
+    end
+  end
+
+  describe "#huge_dog" do
+    it "returns the huge dog" do
+      expect(dogs.huge_dog).to eq('Tank')
     end
   end
 
