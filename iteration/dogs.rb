@@ -36,12 +36,11 @@ class Dogs
     # only use the @dogs instance variable
   end
 
-  def big_dog_names
+  def large_dog_names
     # only use the @dogs instance variable
   end
 
-
-  def joes_big_dogs
+  def joes_large_dogs
     # only use the @dogs instance variable
   end
 
@@ -54,6 +53,6 @@ class Dogs
   end
 
   def average_owners
-    # only use the @dogs instance variable
+    # only use the @dogs instance variable and constants
   end
 end

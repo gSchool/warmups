@@ -17,20 +17,20 @@ describe Dogs do
 
   describe "#huge_dog" do
     it "returns the huge dog" do
-      expect(dogs.huge_dog).to eq('Tank')
+      expect(dogs.huge_dog).to include(:name => 'Tank')
     end
   end
 
-  describe "#big_dogs_names" do
+  describe "#large_dogs_names" do
     it "returns all of the big dogs" do
-      expect(dogs.big_dog_names).to match_array(["Fido", "Bruiser", "Tank", "Beast"])
+      expect(dogs.large_dog_names).to match_array(["Fido", "Bruiser", "Beast"])
     end
   end
 
 
-  describe "#joes_big_dogs" do
+  describe "#joes_large_dogs" do
     it "returns only joes dogs" do
-      expect(dogs.joes_big_dogs).to match_array(["Fido", "Bruiser"])
+      expect(dogs.joes_large_dogs).to match_array(["Fido", "Bruiser"])
     end
   end
 
