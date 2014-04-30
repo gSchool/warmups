@@ -20,3 +20,11 @@ rspec --color ./dogs_spec.rb:9
 ```
 
 Good luck!
+
+Turning in
+===
+
+When you're done, create a gist on github. Please submit a pull request against this README linking to your gist.
+
+Gists
+===
