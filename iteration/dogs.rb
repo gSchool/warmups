@@ -28,15 +28,15 @@ class Dogs
 
   # only edit below this line
 
-  def huge_dog
-    # only use the @dogs instance variable
-  end
-
   def small_dogs
     # only use the @dogs instance variable
   end
 
   def big_dogs
+    # only use the @dogs instance variable
+  end
+
+  def huge_dog
     # only use the @dogs instance variable
   end
 
