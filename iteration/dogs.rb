@@ -1,7 +1,7 @@
 class Dogs
-  POOR      = rand(0,5)
-  AVERAGE   = rand(6,10)
-  EXCELLENT = rand(11,15)
+  POOR      = (0..5).to_a.sample
+  AVERAGE   = (6..10).to_a.sample
+  EXCELLENT = (11..15).to_a.sample
 
   def initalize
     joe   = {
@@ -28,8 +28,8 @@ class Dogs
 
   # only edit below this line
 
-  def huge_dogs
-    # only use the @dogs instance variable
+  def huge_dog
+    @dogs.find { |d| d[:size] == :huge }
   end
 
   def small_dogs
