@@ -29,7 +29,7 @@ class Dogs
   # only edit below this line
 
   def huge_dog
-    @dogs.find { |d| d[:size] == :huge }
+    # only use the @dogs instance variable
   end
 
   def small_dogs
