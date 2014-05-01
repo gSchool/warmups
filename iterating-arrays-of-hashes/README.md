@@ -47,6 +47,7 @@ Gists
 * Rachel - https://gist.github.com/rachellogie/dc645574b27d06a081ba
 * Emily - April 30 - https://gist.github.com/craftninja/454b9a2725351020a238
 * Emily - May 01 - https://gist.github.com/craftninja/686ed871fe631f5eb716
+* Emily - new ver May 01 - https://gist.github.com/craftninja/74850622ec9490be3808
 * Peggy - https://gist.github.com/seishingithub/17274ef291f16a21acdf
 * Mark - https://gist.github.com/PositiveControl/57f842daa7061cc9efd0
 * Zach - https://gist.github.com/zbunde/54883aa48ff364648081
