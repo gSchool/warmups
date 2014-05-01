@@ -47,4 +47,4 @@ Gists
 * Seth - https://gist.github.com/SethMusulin/11434353
 * Kinsey - https://gist.github.com/durhamka/116e62a5926d9d508af4
 * Paul W - https://gist.github.com/pwenig/9df3391a253f53561857
-* Rachel - https://github.com/rachellogie/warmups/blob/master/iterating-arrays-of-hashes/dogs.rb
+* Rachel - https://gist.github.com/rachellogie/dc645574b27d06a081ba
