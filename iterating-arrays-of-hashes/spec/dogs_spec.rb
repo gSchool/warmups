@@ -1,6 +1,6 @@
 require 'rspec'
 require 'rspec/autorun'
-require_relative 'dogs'
+require 'dogs'
 
 describe Dogs do
   let(:dogs) { Dogs.new }
@@ -10,14 +10,14 @@ describe Dogs do
       small_dogs = dogs.small_dogs
 
       expect(small_dogs.length).to eq(2)
-      expect(small_dogs.first).to include(:name => "Yapper")
-      expect(small_dogs.last).to include(:name => "Trixie")
+      expect(small_dogs.first).to include(name: "Yapper")
+      expect(small_dogs.last).to include(name: "Trixie")
     end
   end
 
   describe "#huge_dog" do
     it "returns the huge dog" do
-      expect(dogs.huge_dog).to include(:name => 'Tank')
+      expect(dogs.huge_dog).to include(name: 'Tank')
     end
   end
 
@@ -29,7 +29,7 @@ describe Dogs do
 
 
   describe "#joes_large_dogs" do
-    it "returns only joes dogs" do
+    it "returns only joes large dogs" do
       expect(dogs.joes_large_dogs).to match_array(["Fido", "Bruiser"])
     end
   end
