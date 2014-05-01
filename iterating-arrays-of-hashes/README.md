@@ -49,3 +49,6 @@ Gists
 * Emily - May 01 - https://gist.github.com/craftninja/686ed871fe631f5eb716
 * Peggy - https://gist.github.com/seishingithub/17274ef291f16a21acdf
 * Mark - https://gist.github.com/PositiveControl/57f842daa7061cc9efd0
+* Zach - https://gist.github.com/zbunde/54883aa48ff364648081
+* Cory - https://gist.github.com/BlueVajra/eff6b9bd06a54c96dd0b
+* Gus - https://gist.github.com/gusk/f269fdd29ae7e3298f8b
