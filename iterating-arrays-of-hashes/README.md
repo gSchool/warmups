@@ -29,7 +29,7 @@ When you're done, create a gist on github. Please submit a pull request against 
 Extra Credit
 ===
 
-Re-wriet your implmentation without:
+Re-write your implmentation without:
 * `each`
 * local variables
 * code duplication
