@@ -48,3 +48,5 @@ Gists
 * Kinsey - https://gist.github.com/durhamka/116e62a5926d9d508af4
 * Paul W - https://gist.github.com/pwenig/9df3391a253f53561857
 * Rachel - https://gist.github.com/rachellogie/dc645574b27d06a081ba
+* Emily - April 30 - https://gist.github.com/craftninja/454b9a2725351020a238
+* Emily - May 01 - https://gist.github.com/craftninja/686ed871fe631f5eb716
