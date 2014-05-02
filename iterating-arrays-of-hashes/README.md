@@ -54,3 +54,4 @@ Gists
 * Cory - https://gist.github.com/BlueVajra/eff6b9bd06a54c96dd0b
 * Gus - https://gist.github.com/gusk/f269fdd29ae7e3298f8b
 * Lori - https://gist.github.com/lmoehn/099ea1481e5673d3582a
+* Keri - https://gist.github.com/kclowes/30a767220c9f446f0af5
