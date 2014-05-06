@@ -103,7 +103,7 @@ If you finish that before the warmup is done, please
 * Mike Kauffman - https://gist.github.com/mikekauffman/b280f78fe3001cd6e47b
 * Nathanael Burt -
 * Paul Stone - https://gist.github.com/pwillikins/0228c58a4d788f175af5
-* Paul Wenig -
+* Paul Wenig - https://gist.github.com/pwenig/a330f717eb9383fc20b2
 * Peggy Griffin - https://gist.github.com/seishingithub/a8486b742722d7947745
 * Rachel Logie -  https://gist.github.com/rachellogie/a9f89bdd01e8b457fb75
 * Scott Skender - https://gist.github.com/vandosant/08b6d389f496ffa8b473
