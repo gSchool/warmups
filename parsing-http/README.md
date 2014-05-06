@@ -81,7 +81,7 @@ If you finish that before the warmup is done, please
 
 * Andrew Deitrick - https://gist.github.com/deitrick/ca750df19252181450ee
 * Aubrey Howell -
-* Bebe Peng -
+* Bebe Peng - https://gist.github.com/bebepeng/800fd65dcb13354bac40
 * Cara Dennis -
 * Cory Leistikow -
 * Ellie Schneiders - https://gist.github.com/ems2141/865c8c49fb088d99cbf1
