@@ -103,5 +103,5 @@ If you finish that before the warmup is done, please
 * Rachel Logie -
 * Scott Skender -
 * Seth Musulin -
-* Steve Magelowitz -
+* Steve Magelowitz - https://gist.github.com/stevepm/4562475bd1f4d57e7f9f
 * Zach Klabunde -
