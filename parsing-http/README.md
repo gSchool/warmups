@@ -100,7 +100,7 @@ If you finish that before the warmup is done, please
 * Mark Evans -
 * Martha Berner - https://gist.github.com/marthaberner/326a5d1db5ba3ae2c2f6
 * Mike Gehard -
-* Mike Kauffman -
+* Mike Kauffman - https://gist.github.com/mikekauffman/b280f78fe3001cd6e47b
 * Nathanael Burt -
 * Paul Stone -
 * Paul Wenig -
