@@ -100,7 +100,7 @@ If you finish that before the warmup is done, please
 * Paul Stone -
 * Paul Wenig -
 * Peggy Griffin -
-* Rachel Logie -
+* Rachel Logie - https://gist.github.com/rachellogie/5758b81b28ab77ea6f6e
 * Scott Skender -
 * Seth Musulin -
 * Steve Magelowitz -
