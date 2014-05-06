@@ -84,7 +84,7 @@ If you finish that before the warmup is done, please
 * Bebe Peng -
 * Cara Dennis -
 * Cory Leistikow -
-* Ellie Schneiders -
+* Ellie Schneiders - https://gist.github.com/ems2141/865c8c49fb088d99cbf1
 * Emily Platzer -
 * Evan Tedesco -
 * Gerard Cote -
