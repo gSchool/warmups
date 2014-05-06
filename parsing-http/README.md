@@ -105,7 +105,7 @@ If you finish that before the warmup is done, please
 * Paul Stone -
 * Paul Wenig -
 * Peggy Griffin - https://gist.github.com/seishingithub/a8486b742722d7947745
-* Rachel Logie -
+* Rachel Logie -  https://gist.github.com/rachellogie/a9f89bdd01e8b457fb75
 * Scott Skender - https://gist.github.com/vandosant/08b6d389f496ffa8b473
 * Seth Musulin -
 * Steve Magelowitz - https://gist.github.com/stevepm/4562475bd1f4d57e7f9f
