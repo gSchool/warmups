@@ -5,7 +5,7 @@ When you make a request to a server, you get back a response which is essentiall
 Your mission is to create a class called HttpResponse (test-driven) that can parse these HTTP responses. Every HTTP response is setup in the same way:
 
 * The first line contains the status code
-* There is a blank line in between the header and body
+* There is a blank line in between the list of headers and the body
 
 This class must:
 
