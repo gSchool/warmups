@@ -101,7 +101,7 @@ If you finish that before the warmup is done, please
 * Paul Wenig -
 * Peggy Griffin -
 * Rachel Logie -
-* Scott Skender -
+* Scott Skender - https://gist.github.com/vandosant/08b6d389f496ffa8b473
 * Seth Musulin -
 * Steve Magelowitz -
 * Zach Klabunde -
