@@ -14,6 +14,10 @@ This class must:
 * Have a `body` method that returns the entire body (and nothing else)
 * Have a `status_code` method that returns an integer representing the status code
 
+Notes:
+* Use the same HTTP Responses below to setup your tests and expectations
+* You do not need your class to return a "live" HTTP response
+
 If you finish that before the warmup is done, please
 
 * add a method named `response_json` that will return a Ruby hash of the body if the Content-Type is json (returns nil otherwise)
