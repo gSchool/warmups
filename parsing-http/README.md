@@ -85,7 +85,7 @@ If you finish that before the warmup is done, please
 * Cara Dennis -
 * Cory Leistikow -
 * Ellie Schneiders - https://gist.github.com/ems2141/865c8c49fb088d99cbf1
-* Emily Platzer -
+* Emily Platzer - https://gist.github.com/craftninja/836c7d3598be02103a9a
 * Evan Tedesco -
 * Gerard Cote -
 * Gus King -
