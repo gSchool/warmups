@@ -91,7 +91,7 @@ If you finish that before the warmup is done, please
 * Gus King -
 * Jeff Dean -
 * Jenny Allar -
-* Kaylee Edmonson -
+* Kaylee Edmonson - https://gist.github.com/KayleeRea/7e6c1b320c4ec941c759
 * Kerilyn Clowes - https://gist.github.com/kclowes/fdf15c74e96539de879b
 * Kinsey Durham -
 * Kirsten Kahn -
