@@ -88,7 +88,7 @@ If you finish that before the warmup is done, please
 * Emily Platzer - https://gist.github.com/craftninja/836c7d3598be02103a9a
 * Evan Tedesco -
 * Gerard Cote - https://gist.github.com/grcote/ad9156a52e67eaf55339
-* Gus King -
+* Gus King - https://gist.github.com/gusk/36871a95a07d6f74ac86
 * Jeff Dean -
 * Jenny Allar -
 * Kaylee Edmonson - https://gist.github.com/KayleeRea/7e6c1b320c4ec941c759
