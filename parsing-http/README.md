@@ -87,7 +87,7 @@ If you finish that before the warmup is done, please
 * Jeff Dean -
 * Jenny Allar -
 * Kaylee Edmonson -
-* Kerilyn Clowes -
+* Kerilyn Clowes - https://gist.github.com/kclowes/fdf15c74e96539de879b
 * Kinsey Durham -
 * Kirsten Kahn -
 * Kirsten Kahn -
