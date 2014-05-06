@@ -2,7 +2,12 @@
 
 When you make a request to a server, you get back a response which is essentially a text file in a predictable format.
 
-Your mission is to create a class called HttpResponse (test-driven) that can parse these HTTP responses.  This class must:
+Your mission is to create a class called HttpResponse (test-driven) that can parse these HTTP responses. Every HTTP response is setup in the same way:
+
+* The first line contains the status code
+* There is a blank line in between the header and body
+
+This class must:
 
 * Take a string when it is initialized
 * Have a `headers` method that returns a hash of headers, where the strings are keys
