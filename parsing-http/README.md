@@ -87,7 +87,7 @@ If you finish that before the warmup is done, please
 * Ellie Schneiders - https://gist.github.com/ems2141/865c8c49fb088d99cbf1
 * Emily Platzer -
 * Evan Tedesco -
-* Gerard Cote -
+* Gerard Cote - https://gist.github.com/grcote/ad9156a52e67eaf55339
 * Gus King -
 * Jeff Dean -
 * Jenny Allar -
