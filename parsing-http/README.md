@@ -1,4 +1,4 @@
-# Parsing HTTP Requests
+# Parsing HTTP Responses
 
 When you make a request to a server, you get back a response which is essentially a text file in a predictable format.
 
@@ -9,7 +9,7 @@ Your mission is to create a class called HttpResponse (test-driven) that can par
 
 This class must:
 
-* Take a string when it is initialized
+* Take a string when it is initialized. This string is a valid HTTP response. Examples below.
 * Have a `headers` method that returns a hash of headers, where the strings are keys
 * Have a `body` method that returns the entire body (and nothing else)
 * Have a `status_code` method that returns an integer representing the status code
