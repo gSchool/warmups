@@ -55,3 +55,8 @@ Gists
 * Gus - https://gist.github.com/gusk/f269fdd29ae7e3298f8b
 * Lori - https://gist.github.com/lmoehn/099ea1481e5673d3582a
 * Keri - https://gist.github.com/kclowes/30a767220c9f446f0af5
+* Paul S - https://gist.github.com/pwillikins/44e67216c2b6a9c4f789
+* Martha -https://gist.github.com/marthaberner/2f190d4739fdf1d6a0b9
+* Keri - https://gist.github.com/kclowes/30a767220c9f446f0af5
+* Kaylee - https://gist.github.com/KayleeRea/86bd965784479cbf86fe
+* Jenny - https://gist.github.com/JennyAllar/f1e063d3ce1d71adc737
