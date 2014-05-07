@@ -4,15 +4,15 @@ When you make a request to a server, you get back a response which is essentiall
 
 Your mission is to create a class called HttpResponse (test-driven) that can parse these HTTP responses. Every HTTP response is setup in the same way:
 
-* The first line contains the status code
-* There is a blank line in between the list of headers and the body
+* The first line contains the status code (Ex: HTTP/1.1 200 OK)
+* There is always a blank line in between the list of headers and the body
 
 This class must:
 
 * Take a string when it is initialized. This string is a valid HTTP response. Examples below.
 * Have a `headers` method that returns a hash of headers, where the strings are keys
 * Have a `body` method that returns the entire body (and nothing else)
-* Have a `status_code` method that returns an integer representing the status code
+* Have a `status_code` method that returns only the integer representing the status code
 
 Note the following:
 
@@ -95,7 +95,7 @@ If you finish that before the warmup is done, please
 * Gerard Cote - https://gist.github.com/grcote/ad9156a52e67eaf55339
 * Gus King -
 * Jeff Dean -
-* Jenny Allar -
+* Jenny Allar - https://gist.github.com/JennyAllar/7e64e23ed2a671d40214
 * Kaylee Edmonson - https://gist.github.com/KayleeRea/7e6c1b320c4ec941c759
 * Kerilyn Clowes - https://gist.github.com/kclowes/fdf15c74e96539de879b
 * Kinsey Durham -
