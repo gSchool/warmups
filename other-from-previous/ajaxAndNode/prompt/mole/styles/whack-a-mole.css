@@ -1,0 +1,63 @@
+/* This css sheet was designed to be explicit. Purpose built, not global in nature */
+
+html {
+  background-color: #ADE0FF; /* a bright beautiful blue */
+  font-family: Tahoma;
+}
+
+#main-header, #sub-header {
+  text-align: center;
+}
+
+#game-starter {
+  margin: 0 auto;
+  display: table;
+
+  /* for cuteness*/
+  background-color: #7FE3AF;
+  border-radius:28px;
+  border-radius:28px;
+  border:1px solid #18ab29;
+  color:#ffffff;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+}
+#game-starter:hover {
+  background-color:#5cbf2a;
+}
+#game-starter:active {
+  position:relative;
+  top:1px;
+}
+
+#mole-field {
+  width: 278px;
+  height: 278px;
+  margin: 30px auto;
+  background-color: #7FE3AF; /* a grand garden green */
+  background-clip: padding-box;
+  border-radius: 10px;
+  border: 5px solid #136E23; /* a darker green, like hedges */
+}
+
+#mole-field td {
+  width: 62px;
+  height: 62px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.mole {
+  position: relative;
+  width: 62px;
+  height: 62px;
+  background-image: url('mole.png');
+  background-repeat: no-repeat;
+  cursor: url('heart.png'), pointer;
+}
+
+.in-love {
+  background-image: url('mole.png'), url('foundLove.png');
+  background-repeat: repeat-x;
+}

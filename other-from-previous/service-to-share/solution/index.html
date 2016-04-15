@@ -1,0 +1,32 @@
+<!-- Do not alter this file -->
+
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+
+<body class= "container text-center">
+  
+  <div ng-controller="MainController">
+    <h1>Main Controller</h1>
+    <div ng-repeat="(key, value) in shared">key: {{key}}, value: {{value}}</div>
+  </div>
+
+  <div ng-controller="AlternateController">
+    <h1>Alternate Controller</h1>
+    <div ng-repeat="(key, value) in shareable">key: {{key}}, value: {{value}}</div>
+  </div>
+
+  <div ng-controller="AddPropertyController">
+    <input type="text" ng-model="propKey">
+    <input type="text" ng-model="propValue">
+    <button type="submit" ng-click="addProperty()">Submit Property</button>
+    <button type="submit" ng-click="reset()">Reset SharingIsCaring</button>
+  </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
