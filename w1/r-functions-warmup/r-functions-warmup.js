@@ -7,10 +7,10 @@
 // write a function declaration called addTwoNumbers that takes in two parameters
 // and returns the sum of those parameters 
 
-// write a function declaration called addManyNumbers that takes in two or three parameters
+// write a function declaration called addManyNumbers that takes in any number of parameters
 // and returns the sum of the input parameters 
 
-// INPUT THE LETTER OF THE CORRECT ANSWER INTO THE hoisting FUNCTION BELOW:
+// MUTIPLE CHOICE: INPUT THE LETTER OF THE CORRECT ANSWER INTO THE hoisting FUNCTION BELOW:
 // which one of these is hoisted to the top of the function scope?
 /*
     a: function iSeeALittleSilhouettoOfAMan() {
@@ -39,5 +39,6 @@ module.exports = {
   squareMe:squareMe,
   cubeMe:cubeMe,
   addTwoNumbers:addTwoNumbers,
+  addManyNumbers:addManyNumbers,
   hoisting:hoisting
 }
