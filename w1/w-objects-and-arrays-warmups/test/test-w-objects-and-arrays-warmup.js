@@ -42,7 +42,7 @@ describe('fourth array problem', function() {
   });
   it('should be a number at index 2', function() {
     expect(answers.arrayFour[2]).to.be.a('number');
-  })
+  });
 });
 
 describe('first object problem', function() {
