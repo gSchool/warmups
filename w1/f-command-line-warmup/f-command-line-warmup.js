@@ -50,7 +50,7 @@ function commandLineWarmup () {
     answer9: "",
 
     /* In the shell: */
-    /* Q10: what command do you type to insert the text 'hello world' t in the terminal and
+    /* Q10: what command do you type to insert the text 'hello world'
         into a new file called myText.txt in the present directory? */
     answer10: ""
 
