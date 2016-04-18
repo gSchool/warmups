@@ -10,13 +10,13 @@ describe('first array problem', function(){
 
 describe('second array problem', function() {
   it('should have 5 in 5th index of array', function() {
-      expect(answers.arrayTwo).to.deep.equal([0,0,0,0,0,0,0]);
+      expect(answers.arrayTwo).to.deep.equal([0,0,0,0,0,5,0]);
   });
 });
 
 describe('third array problem', function() {
   it('should have a length of three', function() {
-    // expect(answers.arrayThree).
+    expect(answers.arrayThree).to.have.lengthOf(3);
   });
   it('should have three empty nested arrays', function() {
       expect(answers.arrayThree[0]).to.be.an('array'); //does this work?
