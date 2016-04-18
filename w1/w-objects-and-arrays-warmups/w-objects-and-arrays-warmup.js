@@ -5,7 +5,7 @@ var array = [];
 var arrayTwo = [0,0,0,0,0,0,0];
 
 // put 3 empty nested arrays in arrayThree listed below
-var arrayThree = [[],[],[]];
+var arrayThree = [];
 
 // Starting at index 0 put a string with a length of 3, an empty object,
 // and a number, into arrayFour listed below
@@ -22,7 +22,7 @@ var objectThree = {};
 
 // put a key of arrayTwo and a value of arrayTwo (not a string),
 // and a second key of arrayThree and a value of arrayThree (not a string) into the object below
-var objectFour = {arrayTwo:arrayTwo, arrayThree:arrayThree};
+var objectFour = {};
 
 module.exports = {
  array: array,
