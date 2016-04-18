@@ -1,5 +1,5 @@
-var expect = require('chai').expect();
-var answers = require('../f-command-line-warmup');
+var expect = require('chai').expect;
+var answers = require('../f-command-line-warmup').commandLineWarmup;
 
 describe('Q1', function() {
   it('should be touch', function() {
