@@ -39,8 +39,10 @@ describe('fourth array problem', function() {
   it('should have an empty object at index 1', function() {
     expect(answers.arrayFour[1]).to.be.an('object');
     expect(answers.arrayFour[1]).to.be.empty;
-    expect(answers.arrayFour[2]).to.be.a('number');
   });
+  it('should be a number at index 2', function() {
+    expect(answers.arrayFour[2]).to.be.a('number');
+  })
 });
 
 describe('first object problem', function() {
@@ -53,6 +55,7 @@ describe('second object problem', function() {
   it('should have a key of nested with a value of an empty object', function () {
       expect(answers.objectTwo).to.have.property('nested');
       expect(answers.objectTwo).to.have.property('nested').that.is.an('object');
+      expect(answers.objectTwo.nested).to.be.empty;
   });
 });
 
@@ -67,8 +70,8 @@ describe('third object problem', function() {
 describe('fourth object problem', function() {
   it('has arrayThree and arrayFour as properties and values', function() {
       expect(answers.objectFour).to.have.property('arrayThree').that.is.an('array')
-      .that.deep.equals([[],[],[]]);
-      expect(answers.objectFour).to.have.property('arrayFour').that.is.an('array')
-      .that.deep.equals(answers.arrayFour);
+      .that.deep.equals(answers.arrayThree);
+      expect(answers.objectFour).to.have.property('arrayTwo').that.is.an('array')
+      .that.deep.equals(answers.arrayTwo);
   });
 });
