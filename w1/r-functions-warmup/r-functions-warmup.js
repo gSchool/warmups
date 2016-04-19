@@ -32,7 +32,7 @@
 
 
 function hoisting () {
-  return "YOUR ANSWER HERE";
+  return ("YOUR ANSWER HERE").toLowerCase();
 }
 
 module.exports = {
