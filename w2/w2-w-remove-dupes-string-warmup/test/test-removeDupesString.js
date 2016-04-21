@@ -1,4 +1,4 @@
-var removeDupes = require('../solution');
+var removeDupes = require('../prompt');
 var expect = require('chai').expect;
 
 describe('dupeRemover function', function() {

@@ -70,6 +70,6 @@ testFib(fibbonacciIterative);
 module.exports = {
 	fibbonacciIterative:fibbonacciIterative,
 	attendance:"foobar"
-}
+};
 
 
