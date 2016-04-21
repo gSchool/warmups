@@ -1,0 +1,22 @@
+{
+  "name": "master_warmup_repository_full_stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gSchool/master_warmup_repository_full_stack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gSchool/master_warmup_repository_full_stack/issues"
+  },
+  "homepage": "https://github.com/gSchool/master_warmup_repository_full_stack#readme",
+  "dependencies": {
+    "chai": "^3.5.0"
+  }
+}
