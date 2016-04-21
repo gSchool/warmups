@@ -18,6 +18,7 @@
 
 function fibbonacci(n) {
 	// Finish this function
+	
 }
 
 // Test function, checks the first few known values.
@@ -39,3 +40,7 @@ function testFib() {
 
 // Calls the test function
 testFib();
+
+module.exports ={
+									fibbonacci: fibbonacci
+								};
