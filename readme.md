@@ -1,5 +1,14 @@
-# Web Development Immersive 
+```
+  __  __                  _              __          __                                    __  __           _            
+ |  \/  |                (_)             \ \        / /                                   |  \/  |         | |           
+ | \  / | ___  _ __ _ __  _ _ __   __ _   \ \  /\  / __ _ _ __ _ __ ___  _   _ _ __  ___  | \  / | __ _ ___| |_ ___ _ __ 
+ | |\/| |/ _ \| '__| '_ \| | '_ \ / _` |   \ \/  \/ / _` | '__| '_ ` _ \| | | | '_ \/ __| | |\/| |/ _` / __| __/ _ | '__|
+ | |  | | (_) | |  | | | | | | | | (_| |    \  /\  | (_| | |  | | | | | | |_| | |_) \__ \ | |  | | (_| \__ | ||  __| |   
+ |_|  |_|\___/|_|  |_| |_|_|_| |_|\__, |     \/  \/ \__,_|_|  |_| |_| |_|\__,_| .__/|___/ |_|  |_|\__,_|___/\__\___|_|   
+                                   __/ |                                      | |                                        
+                                  |___/                                       |_|                                        
 
+```
 ####Why:
 The goal is to get students in practice using Git & Github, and to get them comfortable with one-off interview questions. This format also allows for super simple attendance tracking to keep the tracking process off the shoulders of the instructors.
 
