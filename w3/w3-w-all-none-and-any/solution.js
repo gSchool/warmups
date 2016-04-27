@@ -36,6 +36,13 @@ Array.prototype.all = function (p) {
   return true
 };
 
+// OR
+
+Array.prototype.all = function (p) {
+  return this.filter(p).length == this.length;
+};
+
+
 
 // [-1, 2, 3].none(isLessThanZero) => false
 // [-1, -2, -3].none(isGreaterThanZero) => true
@@ -53,6 +60,13 @@ Array.prototype.none = function (p) {
   return true
 };
 
+// OR
+
+Array.prototype.none = function (p) {
+  return this.filter(p).length == 0;
+};
+
+
 // [-1, 2, 3].any(isGreaterThanZero) => true
 // [-1, -2, -3].any(isGreaterThanZero) => false
 Array.prototype.any = function (p) {
@@ -68,6 +82,12 @@ Array.prototype.any = function (p) {
       return true
     }
     return false
+};
+
+// OR
+
+Array.prototype.any = function (p) {
+  return this.filter(p).length > 0;
 };
 
 // use these to test your array methods!
