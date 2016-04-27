@@ -20,4 +20,5 @@ This function returns true if at least one of the items in the array returns tru
 
 [-1, 2, 3].any(isGreaterThanZero) => true
 [-1, -2, -3].any(isGreaterThanZero) => false
-You do not need to worry about the data supplied, it will be an array at all times.
+
+##### You do not need to worry about the data supplied, it will be an array at all times.
