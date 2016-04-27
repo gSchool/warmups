@@ -10,6 +10,8 @@
 // doubleChar("1234!_ ") ==> "11223344!!__  "
 // Good Luck!
 
+// DONE?? Do it with a RegEx! (a 2 line solution is possible)
+
 function doubleChar(str) {
 
 }

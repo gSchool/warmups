@@ -10,6 +10,8 @@
 // doubleChar("1234!_ ") ==> "11223344!!__  "
 // Good Luck!
 
+// DONE?? Do it with a RegEx!
+
 function doubleChar(str) {
   if (typeof str === "string") return str.replace(/(.)/g, "$1$1")
   return "Ruh roh! That isn't a string!"
