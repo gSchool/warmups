@@ -104,5 +104,7 @@ function isLessThanZero (num) {
 // YOUR CODE HERE
 
 module.exports = {
+  arrayObj: Array,
+  cb: isGreaterThanZero,
   attendance:"wordy word here"
-}
+};

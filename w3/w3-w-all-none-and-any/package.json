@@ -1,0 +1,17 @@
+{
+  "name": "w3-w-all-none-and-any",
+  "version": "1.0.0",
+  "description": "* all",
+  "main": "problem.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0"
+  }
+}
