@@ -1,56 +1,42 @@
-// Description:
+/* Given two integers, which can be positive and negative, 
+find the sum of all the numbers between and including a and b,
+and return the sum. If both numbers are equal return a or b.
 
-// Lucy loves to travel. Luckily she is a renowned computer 
-// scientist and gets to travel to international conferences 
-// using her department's budget.
+Note! a and b are not ordered!
 
-// Each year, Society for Exciting Computer Science Research (SECSR)
-// organizes several conferences around the world. Lucy always picks
-// one conference from that list that is hosted in a city she hasn't 
-// been to before, and if that leaves her with more than one option,
-//  she picks the conference that she thinks would be most relevant 
-//  for her field of research.
+Example: 
+getSum(1, 0) == 1   // 1 + 0 = 1
+getSum(1, 2) == 3   // 1 + 2 = 3
+getSum(0, 1) == 1   // 0 + 1 = 1
+getSum(1, 1) == 1   // 1 Since both are same
+getSum(-1, 0) == -1 // -1 + 0 = -1
+getSum(-1, 2) == 2  // -1 + 0 + 1 + 2 = 2
+*/
 
-// Write a function conferencePicker that takes in two arguments:
+function getSum( a, b ) {
+  if (a === b) {
+    return a
+  }
 
-// citiesVisited, a list of cities that Lucy has visited before, given
-// as an array of strings.
-// citiesOffered, a list of cities that will host SECSR conferences
-// this year, given as an array of strings. citiesOffered will already
-// be ordered in terms of the relevance of the conferences for Lucy's 
-// research (from the most to the least relevant).
-// The function should return the city that Lucy should visit, as a
-// string.
+  var accumulator = 0;
 
-// Also note:
-
-// You should allow for the possibility that Lucy hasn't visited any
-// city before.
-// SECSR organizes at least two conferences each year.
-// If all of the offered conferences are hosted in cities that Lucy
-// has visited before, the function should return 'No worthwhile conferences 
-// this year!' (Nothing in Haskell)
-
-// Example:
-
-// citiesVisited = ['Mexico City','Johannesburg','Stockholm','Osaka','Saint Petersburg','London'];
-// citiesOffered = ['Stockholm','Paris','Melbourne'];
-
-// conferencePicker (citiesVisited, citiesOffered);
-// // ---> 'Paris'
-
-function conferencePicker (citiesVisited, citiesOffered) {
-  for (x in citiesOffered) {
-    var currentCity = citiesOffered[x]
-    if (citiesVisited.indexOf(currentCity) === -1){
-      return currentCity
+  if (a < b) {
+    for (var i = a ; i <= b ; i++) {
+      accumulator += a
+      a++
     }
-  } 
-  return 'No worthwhile conferences this year!'
+  } else {
+    for (var i = b ; i <= a ; i++) {
+      accumulator += b
+      b++
+    }
+  }
+  return accumulator
 } // END FUNCTION
 
+
 module.exports = {
-  conferencePicker:conferencePicker,
+  getSum:getSum,
   attendance:"WORD UP"
 }
 
