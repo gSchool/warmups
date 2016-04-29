@@ -8,7 +8,7 @@ function powerOf4(x) {
   
 }
 
-function powerOf4R(x,checked) {
+function powerOf4R(x) {
   //write recursive solution here
   
 }

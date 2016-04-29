@@ -1,7 +1,6 @@
 {
   "name": "w3-f-power-of-4",
   "version": "1.0.0",
-  "description": "",
   "main": "problem.js",
   "directories": {
     "test": "test"
@@ -13,5 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "chai": "^3.5.0"
-  }
+  },
+  "description": ""
 }
