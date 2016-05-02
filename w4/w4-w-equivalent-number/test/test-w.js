@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var equivalent = require('../solution').equivalent;
+var equivalent = require('../problem').equivalent;
 
 describe('equivalent function', function() {
   it('should return a Boolean', function() {

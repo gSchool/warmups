@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var countVowels = require('../solution').countVowels;
+var countVowels = require('../problem').countVowels;
 
 describe('countVowels function', function() {
   it('should return an object with the count of the vowels', function() {
