@@ -1,4 +1,4 @@
-var mostLikely = require('../solution').mostLikely;
+var mostLikely = require('../problem').mostLikely;
 var expect = require('chai').expect;
 
 describe('mostLikely function', function() {
