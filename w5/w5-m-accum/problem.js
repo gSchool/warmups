@@ -8,5 +8,6 @@ function accum() {
 }
 
 module.exports = {
-  accum: accum
+  accum: accum,
+  attendance: 'WORD HERE'
 };
