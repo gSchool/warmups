@@ -1,7 +1,7 @@
 var expect = require("chai").expect;
 
-var getSum = require("../problem").getSum;
-
+var getSum = require("../solution").getSum;
+console.log(getSum.toString(), "TYLRERERKJERHKEJRHKJ")
 describe("getSum warmup", function() {
   it("should return the same number if a and b are equal", function () {
     expect(getSum(1, 1)).to.be.equal(1)

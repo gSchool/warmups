@@ -14,6 +14,7 @@ getSum(-1, 2) == 2  // -1 + 0 + 1 + 2 = 2
 */
 
 function getSum( a, b ) {
+  console.log(a,b,"YOLO")
   if (a === b) {
     return a
   }
@@ -23,12 +24,12 @@ function getSum( a, b ) {
   if (a < b) {
     for (var i = a ; i <= b ; i++) {
       accumulator += a
-      a++
+      // a++
     }
   } else {
     for (var i = b ; i <= a ; i++) {
       accumulator += b
-      b++
+      // b++
     }
   }
   return accumulator
