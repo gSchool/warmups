@@ -1,3 +1,4 @@
+// difficulty: 8
 // A function receives an array of positive integers as input. The function should
 // determine whether the numbers are in ascending order. Assume all inputs are valid.
 //Ex: 
