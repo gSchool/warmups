@@ -216,3 +216,7 @@ function corruptBySwapping(importantData){
 
 	return inputAsArray.join("");
 }
+
+module.exports = {
+	attendance: 'wordy wordy'
+}
