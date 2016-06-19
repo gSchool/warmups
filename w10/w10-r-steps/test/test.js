@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var wordStep = require('../solution').wordStep;
+var wordStep = require('../prompt').wordStep;
 
 
 describe('wordStep function', function() {
