@@ -79,8 +79,11 @@ var Harshad = ( function() {
 
 } () );
 
-// console.log(Harshad.getNext(100));
+// console.log(Harshad.isValid(589));
 
-module.exports = Harshad
+module.exports = {
+    Harshad: Harshad,
+    attendance: "word up yo"
+}
 
  

@@ -60,3 +60,8 @@ var Harshad = ( function() {
   };
 
 } () );
+
+module.exports = {
+    Harshad: Harshad,
+    attendance: "word up yo"
+}
