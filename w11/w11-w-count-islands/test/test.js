@@ -1,5 +1,5 @@
 var expect = require('chai').expect
-var countIslands = require('../solution').countIslands
+var countIslands = require('../prompt').countIslands
 
 describe('countIslands', function() {
   it('should return the number of islands', function() {
