@@ -1,5 +1,5 @@
 {
-  "name": "w10-r-steps",
+  "name": "w10-f-bin-and-hex",
   "version": "1.0.0",
   "description": "",
   "main": "prompt.js",
@@ -9,11 +9,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "difficulty": "5",
-  "keywords": ["arrays","TwoDArrays"],
+  "difficulty": 6,
+  "keywords": ["algorithms" "arrays" "sorting" "lists" "data" "structures"],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chai": "^3.5.0"
   }
 }
+
+
