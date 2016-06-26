@@ -1,0 +1,21 @@
+{
+  "name": "w11-f-purmutations-without-repetitions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "prompt.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "difficulty": 6,
+  "keywords": ["algorithms" "purmutations"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0"
+  }
+}
+
+
