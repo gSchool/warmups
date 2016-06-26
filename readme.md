@@ -26,4 +26,5 @@ These warmups also export an attendance word for easy tracking of attendance usi
 * Each student works along following the prompt's instructions
 * They can run tests if they want by running ```mocha test/m-test.js``` from the root repo directory
 * These problems are ready to use with the autograder
-* in the package.json you can find the problem's difficulty and it's areas of focus.
+* In the package.json you can find the problem's difficulty and it's areas of focus.
+* If you have other setup questions, reach out to me (@matthew in slack)
