@@ -1,50 +1,77 @@
 // Description:
 
-// What is your favourite day of the week? Check if it's 
-// the most frequent day of the week in the year.
+// Given a hash of letters and the number of times they occur, recreate 
+// all of the possible anagram combinations that could be created using 
+// all of the letters, sorted alphabetically.
 
-// You are given a year as integer (e. g. 2001). You should 
-// return the most frequent day(s) of the week in that year. 
-// The result has to be a list of days sorted by the order of 
-// days in week (e. g. ['Monday', 'Tuesday']). Week starts with Monday.
+// The inputs will never include numbers, spaces or any special characters, 
+// only lowercase letters a-z.
 
-// Input: Year as an int.
+// E.g. get_words({2=>["a"], 1=>["b", "c"]}) => 
+// [
+// "aabc", "aacb", "abac", "abca", "acab", 
+// "acba", "baac", "baca", "bcaa", "caab", 
+// "caba", "cbaa"
+// ]
 
-// Output: The list of most frequent days sorted by the order 
-// of days in week (from Monday to Sunday).
-
-// Preconditions: Year is between 1 and 9999. Week starts with
-//  Monday. Calendar is Gregorian.
-
-// Example:
-
-// most_frequent_days(2427) == ['Friday']
-// most_frequent_days(2185) == ['Saturday']
-// most_frequent_days(2860) == ['Thursday', 'Friday']
-
-function mostFrequentDays(year){  
-  let firstDay = new Date(year,0,0).getDay();
-  let lastDay = new Date(year,11,30).getDay();
+function getWords(hash)
+{ 
+  numbers = createWord(hash);
+   result = allAnagrams(numbers);
+  return sortAlphabetically(result);
   
-  let firstWeek = Array.from({length: 7 - firstDay}, (v, k) => firstDay + k);
-  let lastWeek = new Set(Array.from({length: lastDay + 1}, (v, k) => k));
-  
-  console.log(firstWeek, lastWeek);
-  
-  // get an Array of all intersecting days
-  let mostCommon = firstWeek.filter(d => lastWeek.has(d));
-  
-  // if there are no intersecting day, just return all
-  if(mostCommon.length === 0) {
-    mostCommon = [...firstWeek, ...lastWeek].sort((a, b) => a - b);
+}
+
+/**
+* Create word based on hash
+*
+* Key is the number of times the letter must be in the anagram
+**/
+var createWord = function(hash) {
+  var numbers = '';
+
+  for (var propt in hash){
+    var number_of_times = propt;
+    
+    for (var times = 1; times <= propt; times++) {
+      hash[propt].map(function(number) {
+        numbers = numbers + number;
+      });
+    }
   }
+  return numbers;
+}
+
+/**
+* Create anagram from sting
+**/
+var allAnagrams = function(str) {
+    var anagrams = {};
+    
+    var recurse = function(ana, str) {
+      if (str === '') 
+        anagrams[ana] = 1;
+      for (var i = 0; i < str.length; i++)
+        recurse(ana + str[i], str.slice(0, i) + str.slice(i + 1));
+    };
+    recurse('', str);
   
-  // now replace the indizes with the actual names
-  let days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-  return mostCommon.map(i => days[i]);
+    return Object.keys(anagrams);
+}
+
+
+/**
+* nSort the anagrams to alphabetical order
+**/
+var sortAlphabetically = function(result) {
+  return result.sort(function(a, b){
+      if(a < b) return -1;
+      if(a > b) return 1;
+      return 0;
+  });
 }
 
 module.exports = {
- mostFrequentDays: mostFrequentDays,
+ getWords: getWords,
  attendance: "much words" 
 }

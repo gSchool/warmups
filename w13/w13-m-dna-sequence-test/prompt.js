@@ -70,18 +70,7 @@
 
 
 function checkDNA (seq1, seq2) {
-    var pairs = {
-        A: 'T',
-        T: 'A',
-        C: 'G',
-        G: 'C'
-    };
-    // replace all characters in the second sequence with their matching ones,
-    // then reverse the sequence
-    seq2 = Array.prototype.map.call(seq2, current => pairs[current]).reverse().join('');
-    
-    // check if the longer sequence contains the shorter one
-    return (seq1.length >= seq2.length) ? seq1.indexOf(seq2) !== -1 : seq2.indexOf(seq1) !== -1;
+
 }
 
 module.exports = {

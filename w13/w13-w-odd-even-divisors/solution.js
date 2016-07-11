@@ -9,6 +9,8 @@
 
 // For n=4 the divisors are [1,2,4] – 'odd'
 
+// Write some tests!
+
 function oddity(n) {
   return Math.sqrt(n) % 1 == 0 ? 'odd' : 'even';
 }

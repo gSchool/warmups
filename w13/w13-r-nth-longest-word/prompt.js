@@ -2,8 +2,8 @@
 // Implement the function longest(array,n) where you 
 // will be given an array of strings and then return 
 // the nth longest string in that array. e.g.
-// arr = ['Hello','World','Codewars','Katas'] n = 3; 
-// should return 'World' because 'Codewars' length = 8 , 
+// arr = ['Hello','World','Flapjack','Quick'] n = 3; 
+// should return 'World' because 'Flapjack' length = 8 , 
 // 'Hello' length = 5, so that is the 2nd longest word and 
 // then 'World' (although also word length of 5, 'World' 
 // is after 'Hello' in the array). 

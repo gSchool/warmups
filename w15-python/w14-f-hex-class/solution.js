@@ -1,6 +1,6 @@
 // I LIKE BIG NUMS AND I CANNOT LIE
 
-// Write:
+// Write
 
 // function biggest(nums)
 
@@ -15,7 +15,11 @@
 // The results will be large so make sure to return a string.
 
 function biggest(nums) {
-
+  return nums
+    .map(String)
+    .sort((a, b) => (b + a) - (a + b))
+    .join('')
+    .replace(/^0+(.)/, '$1');
 }
 
 module.exports = {
