@@ -26,7 +26,7 @@
 // of this warmup so, in that case, return null
 
 function sqInRect(lng, wdth){
-
+  //your code here
 }
 
 module.exports = {
