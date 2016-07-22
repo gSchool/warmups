@@ -9,9 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
   "keywords": [],
-  "difficulty": 2,
   "author": "",
   "license": "ISC",
   "dependencies": {
