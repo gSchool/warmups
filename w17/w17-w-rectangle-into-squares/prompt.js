@@ -31,5 +31,5 @@ function sqInRect(lng, wdth){
 
 module.exports = {
   sqInRect,
-  attendance: "It always seems impossible until its done"
+  attendance: "Start where you are. Use what you have. Do what you can." 
 }

@@ -27,5 +27,5 @@ function compare(s1, s2) {
 
 module.exports = {
  compare: compare,
- attendance: "gimmie yo words" 
+ attendance: "In order to succeed, we must first believe that we can."
 }

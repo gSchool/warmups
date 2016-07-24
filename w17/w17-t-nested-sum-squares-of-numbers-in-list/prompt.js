@@ -23,5 +23,5 @@ function sumSquares(l){
 
 module.exports = {
  sumSquares: sumSquares,
- attendance: "much words" 
+ attendance: 'What you do today can improve all your tomorrows.'
 }
