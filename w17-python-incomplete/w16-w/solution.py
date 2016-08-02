@@ -1,14 +1,27 @@
-# This time no story, no theory. The examples below show you 
-# how to write function accum:
+# Take a number: 56789. Rotate left, you get 67895.
 
-# Examples:
+# Keep the first digit in place and rotate left the other digits: 68957.
 
-# accum("abcd") --> "A-Bb-Ccc-Dddd"
-# accum("RqaEzty") --> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
-# accum("cwAt") --> "C-Ww-Aaa-Tttt"
+# Keep the first two digits in place and rotate the other ones: 68579.
 
-# The parameter of accum is a string which includes only letters 
-# from a..z and A..Z.
+# Keep the first three digits and rotate left the rest: 68597. 
+# Now it is over since keeping the first four it remains only 
+# one digit which rotated is itself.
 
-def accum(s):
-    return '-'.join(c.upper() + c.lower() * i for i, c in enumerate(s))
+# You have the following sequence of numbers:
+
+# 56789 -> 67895 -> 68957 -> 68579 -> 68597
+
+# and you must return the greatest: 68957.
+
+# Calling this function max_rot (or maxRot or ... depending 
+# on the language)
+
+# max_rot(56789) should return 68957
+
+def max_rot(n):
+    s, arr = str(n), [n]
+    for i in range(len(s)):
+        s = s[:i] + s[i+1:] + s[i]
+        arr.append(int(s))
+    return max(arr)
