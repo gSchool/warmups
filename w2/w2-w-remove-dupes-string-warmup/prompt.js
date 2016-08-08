@@ -6,9 +6,9 @@
 
 // Write a function named removeDupesCI which takes a string and removes 
 // all duplicate characters regardless of capitalization. Here are some examples:
-//   removeDupes('AABB'); // 'AB'
-//   removeDupes('AaAaBbBb'); // 'AB'
-//   removeDupes('cAtCaT'); // 'cAt'
+//   removeDupesCI('AABB'); // 'AB'
+//   removeDupesCI('AaAaBbBb'); // 'AB'
+//   removeDupesCI('cAtCaT'); // 'cAt'
 
 
 function removeDupes(input){
