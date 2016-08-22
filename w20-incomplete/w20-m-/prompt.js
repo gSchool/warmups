@@ -1,5 +1,5 @@
 // In this warmup you will have to change every letter in a given string to the
-// next letter in the alphabet. You will write a function nextLetter to do this.
+// next letter in the alphabet. You will write a functionnextLetter to do this.
 // The function will take a single parameter str (string).
 //
 // EXAMPLES:
