@@ -21,5 +21,5 @@ function nextLetter(str) {
 
 module.exports = {
  nextLetter: nextLetter,
- attendance: "In order to succeed, we must first believe that we can."
+ attendance: "cloudy-with-a-chance-of-meatballs"
 }
