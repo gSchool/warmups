@@ -1,4 +1,4 @@
-# User Registration
+# User Authentication
 
 Using the [Express HTTP server](../User Registration/), add two new route handlers to the middleware stack for logging users in and out.
 
