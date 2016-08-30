@@ -1,0 +1,1 @@
+Create a super 8 camera that shoots 18 frames a second. You'll need to load a 50 foot cartridge with 3,600 frames to film anything. Keep track of the frames you've shot, and when you need a new cartridge.
