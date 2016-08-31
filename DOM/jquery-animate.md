@@ -10,6 +10,7 @@
 ## Bonus
   - When your stick figure is walking back, flip it so it looks like it turned around.
   - Make your stick figure to move back and forth across the screen indefinitely.
+  - Redo this without using jquery at all!
 
 ## Get Started
 
