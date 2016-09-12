@@ -13,7 +13,7 @@ module.exports = {
   makeObjEs6,
   ObjProperties,
   ObjPropertiesEs6
-}
+};
 
 // refactor this to use the es6 destructuring syntax (hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 //x and y are index numbers, this function swaps the values at those indexes
@@ -30,7 +30,7 @@ function swapEs6(arr,x,y){
 
 //refactor this to use es6 for...of syntax
 function changeEachElem(array){
-  var result = []
+  var result = [];
   for (var i = 0; i < array.length; i++) {
     result.push(array[i]);
   }
@@ -83,14 +83,13 @@ function makeObjEs6(val1,val2){
 
 //refactor this to be more concise by using new es6 syntax (hint https://ariya.io/2013/02/es6-and-object-literal-property-value-shorthand)
 function ObjProperties(name, grade, favColor) {
-	return {
-		name: name,
-		grade: grade,
-		favColor: favColor
-	};
+  return {
+    name: name,
+    grade: grade,
+    favColor: favColor
+  };
 }
 
 function ObjPropertiesEs6(name, grade, favColor) {
   //Your code here
-
 }
