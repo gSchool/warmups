@@ -24,7 +24,7 @@ function swap(arr,x,y){
 }
 
 function swapEs6(arr,x,y){
-  //Your code here
+  [arr[x], arr[y]] = [arr[y], arr[x]];
 }
 
 
@@ -38,7 +38,11 @@ function changeEachElem(array){
 }
 
 function changeEachElemEs6(array){
-  //Your code here
+  var result = [];
+  for (let element of array) {
+    result.push(element);
+  }
+  return result;
 }
 
 
@@ -52,8 +56,8 @@ function useArrows(array){
 }
 
 function useArrowsEs6(array){
-  //Your code here
-
+  var result = array.map(element => element * 2);
+  return result;
 }
 
 //refactor this to use the backticks for string interpolation
@@ -62,10 +66,8 @@ function printString(name,greeting){
 }
 
 function printStringEs6(name,greeting){
-  //Your code here
-
+  return `${name} says "${greeting}"`;
 }
-
 
 //refactor this to  be more concise by using new es6 syntax for 'computed property names'
 function makeObj(val1,val2){
@@ -76,8 +78,9 @@ function makeObj(val1,val2){
 }
 
 function makeObjEs6(val1,val2){
-  //Your code here
+  var myObj2 = {[val1 + val2]: 'Shayna'}
 
+  return myObj2;
 }
 
 
@@ -91,6 +94,9 @@ function ObjProperties(name, grade, favColor) {
 }
 
 function ObjPropertiesEs6(name, grade, favColor) {
-  //Your code here
-
+	return {
+    name,
+    grade,
+    favColor
+	};
 }
