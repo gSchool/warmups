@@ -13,7 +13,7 @@ module.exports = {
   makeObjEs6,
   ObjProperties,
   ObjPropertiesEs6
-}
+};
 
 // refactor this to use the es6 destructuring syntax (hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 //x and y are index numbers, this function swaps the values at those indexes
@@ -78,8 +78,7 @@ function makeObj(val1,val2){
 }
 
 function makeObjEs6(val1,val2){
-  var myObj2 = {[val1 + val2]: 'Shayna'}
-
+  var myObj2 = {[val1 + val2]: 'Shayna'};
   return myObj2;
 }
 
