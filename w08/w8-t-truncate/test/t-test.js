@@ -18,7 +18,7 @@ describe('truncateString function', function() {
   });
 
   it('should return the entire string if num is greater than string length', function() {
-    expect(truncateString('Hello World'),20).to.be.equal('Hello World');
+    expect(truncateString('Hello World',20)).to.be.equal('Hello World');
     expect(truncateString(longStr,100)).to.be.equal(longStr);
   });
 
