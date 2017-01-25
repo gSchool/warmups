@@ -3,10 +3,25 @@
 // However, if the given maximum string length num is less than or equal to 3,
 // then the addition of the three dots does not add to the string length in determining the truncated string.
 
-function truncateString() {
-  //Your solution here
+function truncateString(originalString, maxStringLength) {
+  let stringLength = originalString.length
+
+   if (maxStringLength >= stringLength) {
+      console.log(originalString)
+      return originalString
+   }
+      else if (maxStringLength <= 3) {
+      return originalString.substring(0,maxStringLength) + "..."
+   }
+      else {
+      return originalString.substring(0, (maxStringLength - 3)) + "..."
+   }
 }
 
 module.exports = {
   truncateString: truncateString
 };
+
+
+
+// untruncString.substring(0, maxStringLength) + stringEnding;
