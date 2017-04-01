@@ -29,4 +29,4 @@ Warmup Day 3:
   This is what a query to HackerNews looks like: https://hn.algolia.com/api/v1/search?query=searchTerm
 
 Warmup Day 4:
-  - Allow creating a new To Do list with custom title
+  - Think back on the solution from Day 2. Notice that the ```completed``` state is being tracked in the internal state of the Card component. What if we wanted to persist this state to a backend? The better place to store this I think is on each card itself, which is currently stored in the App component.   Then the completed flag can be passed down to the Card component as a prop. Update the repo with these changes.
