@@ -25,13 +25,30 @@ export default class App extends React.Component {
           cards: this.state.cards.concat(card)
         });
       });
+  }
 
+  toggleCompleted = (cardToUpdate) => {
+    this.setState({
+      //using an immutable pattern to toggle completed
+      cards: this.state.cards.map( (item, index) => {
+          if(index !== cardToUpdate) {
+            // This isn't the item we care about - keep it as-is
+            return item;
+          }
+
+          // Otherwise, this is the one we want - return an updated value
+          return {
+            ...item,
+            completed: !item.completed
+          };
+      })
+    })
   }
 
   render() {
     return (
      <main>
-        <CardList title="To Do" cards={this.state.cards} />
+        <CardList title="To Do" cards={this.state.cards} toggleCompleted={this.toggleCompleted}/>
         <AddCardForm onSubmit={this.onAddCard}/>
      </main>
     )

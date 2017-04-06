@@ -5,7 +5,7 @@ export default class Component extends React.Component {
 
   renderCards() {
     return this.props.cards.map((card, i) => {
-      return <Card {...card} key={i} />
+      return <Card {...card} id={i} toggleCompleted={this.props.toggleCompleted} key={i} />
     })
   }
 
