@@ -14,7 +14,19 @@ getSum(-1, 2) == 2  // -1 + 0 + 1 + 2 = 2
 */
 
 function getSum( a, b ) {
-  //your code here
+  if(a === b){
+    return a;
+  }
+  if(b < a){
+    let temp = b;
+    b = a;
+    a = temp;
+  }
+  var answer = 0;
+  for (i = a; i <= b; i++) {
+    answer += i;
+  }
+  return answer;
 
 } // END FUNCTION
 
