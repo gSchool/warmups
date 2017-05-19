@@ -13,12 +13,7 @@ function extractKmers(genome, kLength) {
 function countKmers(kmerArr) {
   kmerCounts = {}
   kmerArr.forEach(function (k) {
-    if (kmerCounts.hasOwnProperty(k)) {
-      kmerCounts[k]++
-    }
-    else {
-      kmerCounts[k] = 1
-    }
+    kmerCounts[k] = kmerCounts[k] ? kmerCounts[k] + 1 : 1
   })
   return kmerCounts
 }
