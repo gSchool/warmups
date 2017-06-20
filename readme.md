@@ -16,7 +16,7 @@ The goal is to get students in practice using Git & Github, and to get them comf
 #### What:
 This repo contains morning warmups for web dev students to complete in the mornings before lecture. Typically the time given for completion ranges from 45 to 60 minutes. 
 
-These warmups also export an attendance word for easy tracking of attendance using [Tyler's GitHub Autograder] (https://github.com/gSchool/github-autograder)
+These warmups also export an attendance word for easy tracking of attendance using [Tyler's GitHub Autograder](https://github.com/gSchool/github-autograder)
 
 
 
