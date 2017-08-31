@@ -13,7 +13,7 @@ exports.calculateArrayMax = function(arr) {
 Re-write calculateArrayMax using the spread operator instead of apply.
 */
 exports.calculateArrayMax = function(arr) {
-  return Math.max(...arr);
+  //add code
 }
 
 /*
@@ -28,7 +28,7 @@ Rewrite combineArrays to use the spread operator.
 */
 
 exports.combineArrays = function(arr1, arr2) {
-  return [...arr1, ...arr2];
+  //add code
 }
 
 /*
@@ -43,8 +43,7 @@ Rewrite skipFirstThree to use the spread operator.
 */
 
 exports.skipFirstThree = function(arr) {
-  let [a, b, c, ...remaining] = arr;
-  return remaining
+  //add code
 }
 
 /*
@@ -56,5 +55,5 @@ Map (x 2) over all parameters beyond the first two, a and b.
 */
 
 exports.allOthersMapTimesTwo = function(a, b, ...others) {
-  return others.map((a) => a * 2)
+  //add code
 }
