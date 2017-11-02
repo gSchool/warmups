@@ -4,7 +4,7 @@ Hacking is about finding vulnerabilities in software. As engineers, our duty to 
 
 Do not change the code of `server.js` for this warmup.
 
-You do need to `npm install express`.
+You do need to `npm install` and `nodemon server.js`.
 
 ## Step 1: Understand the code
 

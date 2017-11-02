@@ -1,17 +1,19 @@
 {
-  "name": "w3",
+  "name": "node-debug",
   "version": "1.0.0",
   "description": "",
-  "main": "m-conference-traveller-warmup.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha test/r-test.js"
+    "test": "mocha --recursive"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {},
   "dependencies": {
-    "chai": "^3.5.0"
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
   }
 }

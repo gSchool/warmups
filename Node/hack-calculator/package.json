@@ -1,0 +1,15 @@
+{
+  "name": "hack-calculator",
+  "version": "1.0.0",
+  "description": "Hacking is about finding vulnerabilities in software. As engineers, our duty to our users and our companies is to be anti-hackers. In order to prevent breaches, we must understand breaches. This warmup is about a well known vulnerability in JavaScript.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}

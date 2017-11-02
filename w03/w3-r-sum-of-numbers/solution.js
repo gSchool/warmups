@@ -13,27 +13,19 @@ getSum(-1, 0) == -1 // -1 + 0 = -1
 getSum(-1, 2) == 2  // -1 + 0 + 1 + 2 = 2
 */
 
-function getSum( a, b ) {
-  console.log(a,b,"YOLO")
-  if (a === b) {
-    return a
-  }
+function getSum(a, b) {
+  if (a === b) return a;
+  if (a > b) [a, b] = [b, a];
 
-  var accumulator = 0;
+  let total = 0;
 
-  if (a < b) {
-    for (var i = a ; i <= b ; i++) {
-      accumulator += a
-      // a++
-    }
-  } else {
-    for (var i = b ; i <= a ; i++) {
-      accumulator += b
-      // b++
-    }
+  for(let num = a; num <= b; num++) {
+    total += num;
   }
-  return accumulator
-} // END FUNCTION
+  return total;
+}
+
+// END FUNCTION
 
 
 module.exports = {
