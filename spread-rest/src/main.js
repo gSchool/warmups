@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 /*
 Spread syntax allows an iterable such as an array expression to be expanded
 in places where zero or more arguments (for function calls) or elements
@@ -12,9 +14,7 @@ exports.calculateArrayMax = function(arr) {
 
 Re-write calculateArrayMax using the spread operator instead of apply.
 */
-exports.calculateArrayMax = function(arr) {
-  //add code
-}
+exports.calculateArrayMax = (arr) => Math.max(...arr);
 
 /*
 Spread in arrays -
@@ -27,9 +27,7 @@ exports.combineArrays = function(arr1, arr2) {
 Rewrite combineArrays to use the spread operator.
 */
 
-exports.combineArrays = function(arr1, arr2) {
-  //add code
-}
+exports.combineArrays = (arr1, arr2) => [...arr1, ...arr2];
 
 /*
 Destructure an array with spread -
@@ -42,9 +40,12 @@ exports.skipFirstThree = function(arr) {
 Rewrite skipFirstThree to use the spread operator.
 */
 
-exports.skipFirstThree = function(arr) {
-  //add code
-}
+exports.skipFirstThree = ([a, b, c, ...rest]) => rest;
+
+// exports.skipFirstThree = arr => {
+//   let [a, b, c, ... rest] = arr;
+//   return rest;
+// };
 
 /*
 Use the spread operator to capture rest parameters -
@@ -54,6 +55,4 @@ an indefinite number of arguments as an array.
 Map (x 2) over all parameters beyond the first two, a and b.
 */
 
-exports.allOthersMapTimesTwo = function(a, b, ...others) {
-  //add code
-}
+exports.allOthersMapTimesTwo = (a, b, ...others) => others.map((element) => element * 2);
